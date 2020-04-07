@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <title>Imagine Protege</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="menu.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <!-- <style type="text/css">
+   /* img.portrait {width: 50%;} */
+   img.work {width: 30%}
+   img.work2 {width: 42.75%}
+  </style> -->
+  <style>
+      .body {
+          
+          margin: auto;
+      }
+      .register-form {
+	line-height: 1.4;
+}
+      .form-group {
+	margin-bottom: 3em;
+	padding: 45px;
+}
+.form-group ul {
+	list-style: none;
+	margin: 0 0 2em;
+	padding: 0;
+}
+.form-group li {
+    margin-bottom: 0.75em;
+    margin-left: 1.5em;
+}
+
+  .form-message textarea {
+    display: block;
+    box-sizing: border-box;
+    font: 0.9em Lato, Helvetica, sans-serif;
+    width: 38%;
+    height: 6em;
+    overflow: auto;
+    padding: 0.6em 0.8em;
+    color: #999;
+    background: #f7f7f7;
+    border: 1px solid #e1e1e1;
+    line-height: normal;
+}
+/* .form-fields label {
+	flex: 1 0 90px;
+	max-width: 200px;
+} */
+</style>
+</head>
+
+<body>
+    <nav>
+        <ul class="drop">
+          <li><a href="Index.html">Home</a></li>
+          <li>About Me
+            <ul>
+              <li><a href="#">Circus Performer</a></li>
+              <li><a href="#">GRD Student</a>
+                      <ul>
+                        <li>Web Design</li>
+                        <li>Graphic Design</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                      </ul>
+                    </li>
+              <li><a href="#">Bartender</a></li>
+              </ul>
+          </li>
+          <li>Work Experience
+              <ul>
+                <li class="dir"><a href="#">Imagine Circus</a>
+                <ul>
+                    <li><a href="#">Stilt Walker</a></li>
+                    <li><a href="#">Living Statue</a></li>
+                    <li><a href="#">Bubble Artist</a></li>
+                    <li><a href="#">Strolling Table</a></li>
+                  </ul>
+                </li>
+                <li class="dir"><a href="#">Bartending</a>
+                  <ul>
+                    <li><a href="#">Pantana's Pool Hall</a></li>
+                    <li><a href="#">Person St Bar</a></li>
+                    <li><a href="#">Brewery Bhavana</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>Education
+                <ul>
+                  <li><a href="#">Highschool</a></li>
+                  <li><a href="#">Wake Tech CC</a></li>
+                </ul>
+              </li>
+          <li><a href="contact.html">Contact Me</a>
+          </li>
+      </nav>
+
+      <form class="contact">
+        <form class="register-form">
+        <section class="form-group">
+        <h2>Personal Info</h2>
+        <ul class="form-fields">
+        <li><label for="name">First Name:</label> <input type="text" name="name" id="name" placeholder="first name" class="text-input"></li>
+        <li><label for="last name">Last Name:</label> <input type="text" name="last name" id="last name" placeholder="last name" class="text-input"></li>
+        <li><label for="Phone number">Phone Number:</label> <input type="text" name="phone" id="phone" placeholder="(555)-555-5555" class="text-input"></li>
+        <li><label for="Email">Email:</label> <input type="text" name="email" id="email" placeholder="JaneDoe@gmail.com" class="text-input"></li>
+        </ul>
+        
+        <p><h4>What can I help with?</h4>
+        <ul class="form-fields">
+        <li><label for="description">Interested In:</label> <select class="select-menu" id="interesets" name="interests">
+            <option value="designer">Graphic Designer</option>
+            <option value="developer">Web Designer</option>
+            <option value="other">Circus Acts</option>
+            </select></li>
+        </ul>
+        <ul class="form-message"><li><label for="message-box">Tell me in a few words how I can help:</label><textarea id="message-box" name="message-box" class="text-area">I would like to hire you for. . . </textarea> </li>
+        </ul>
+        <h4>I'm looking forward to working with you</h4>
+        <button type="submit" class="submit-btn">Submit</button>
+        </section>
+        </form>
+      </contact>
+        </body>
+        </main>

@@ -1,0 +1,78 @@
+html {
+    background-color: rgb(194, 194, 194);
+    height: 100%;
+    margin: 0;  
+    padding: 0;
+}
+/*global styles*/
+body {
+color: white;
+width: 925px;
+height: 1305px;
+padding: 20px;
+margin: 30px auto;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #546A7B;
+border: 3px solid rgb(182, 120, 125);
+box-shadow: 0 0 100px #000;
+}
+img {
+    width: 300px;
+}
+/*profile*/
+header {
+color: #F7FFF7;
+padding: 5px;
+text-align: center;
+/* max-width: 950px; */
+margin: 0 auto;
+width: 100%;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(96, 219, 180);
+    border-bottom-color: rgb(96, 219, 180);
+    text-align: center;
+}
+
+.h1 {font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 0 5px 7px #333, 0 -5px 7px white, 10px 0 17px rgb(255, 252, 73), -10px 0 17px rgb(255, 252, 73);
+   text-align: center;
+   margin-top: 1.75em;
+    
+}
+
+
+/*footer*/
+    .footer {
+        /* position: absolute;
+        width: 100%; */
+        color: white; 
+        text-align: center;
+    }
+
+body {
+    font-size: 15px;
+}
+
+
+a{
+    font-size: 17px;
+}
+a:link{
+    color: #ff9;
+}
+a:visited {
+    color: #92BFB1;
+}
+footer h2 {
+    /* font-family: 'Libre Baskerville', serif; */
+    border: none;
+}
